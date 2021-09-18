@@ -8,7 +8,7 @@ const TodoListItem = ({todo, onRemovePressed})=>(
         <div className="buttons-container">
             <button className="completed-button">Mark as Completed</button>
             <Button 
-                onClick={()=>onRemovePressed(todo.text)}
+                onClick={()=>onRemovePressed(todo.text)}//when ever click the button it should called the onRemovePressed function with the text of todo
                 className="removed-button btn btn-secondary btn-sm">Remove</Button>
         </div> 
     </div>
